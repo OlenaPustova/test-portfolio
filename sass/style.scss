@@ -1,0 +1,29 @@
+@import 'var';
+@import 'reset';
+
+
+body {
+    font-size: $text-size;
+    background: $bg-color;
+}
+.wrapper {
+    padding: $gap;
+    min-height: 100vh;
+}
+header {
+    height: $gap;
+    position: fixed;
+    background: $bg-color;
+    top: 0;
+    left: 0;
+}
+.menu {
+    width: $gap;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transition: translateY(50%);
+}
+.hero {
+    background: $primary-color;
+}
